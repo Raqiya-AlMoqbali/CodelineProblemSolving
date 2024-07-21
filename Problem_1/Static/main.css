@@ -1,0 +1,43 @@
+@import "header.css";
+@import "card.css";
+@import "footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
+
+body{
+  font-family: 'Arial' , Sans-Serif;
+  background-color:#D2CAE6;
+  margin: 1px;
+}
+
+
+.container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit , minmax(270px, 1fr));
+  justify-content:space-between;
+  padding: 18px;
+  gap:19px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .container  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+  .container {
+    grid-template-columns: repeat (3, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 766px){
+  .contheader{
+    grid-template-columns:  1fr;
+  }
+}
