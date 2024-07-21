@@ -13,26 +13,12 @@ Write a program that displays a menu with fields for Username, Password, and Ema
 1. The email should have “@” symbol. 
 2. It should have alphanumeric characters before and after the @ symbol 3. After the @ symbol, it should have letters having . character in between.
 
-## Getting Started
-
-To get started with your personal blog website using this template, follow these steps:
-
-1. Clone the repository to your local machine using the following command:
-
-   ```
-   gh repo clone Raqiya-AlMoqbali/Personal-Blog-Website
-   ```
-
-2. Customize the content and design of the blog website template to reflect your personal brand, preferences, and style.
-3. Add new blog posts, articles, or updates as needed.
-4. Test the website locally to ensure everything is working as expected.
-5. Deploy the blog website to your chosen web hosting platform.
-
 ## Technologies Used
 
 The blog website template utilize this technologies:
 - HTML
 - CSS
+- JavaScript
 
 ## License
 
